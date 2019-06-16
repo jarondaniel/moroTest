@@ -25,4 +25,4 @@ esac
 browser=chrome
 selenium=selenium-server-standalone-3.141.59.jar
 
-echo "java -Dwebdriver.${browser}.driver=${driver} -jar ${selenium} -port 4444"
+java -Dwebdriver.${browser}.driver=${driver} -jar ${selenium} -port 4444
