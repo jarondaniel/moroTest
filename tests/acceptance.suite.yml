@@ -5,4 +5,6 @@ modules:
         - \Helper\Acceptance
     config:
         WebDriver:
+            url: 'http://google.com'
             browser: 'chrome'
+    step_decorators: ~
